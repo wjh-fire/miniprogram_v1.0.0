@@ -92,7 +92,7 @@
 .ddclass {
   width: 100%;
   left: 0;
-  z-index: 3;
+  position: absolute;
 }
 
 .ddclass .liclass {
@@ -105,6 +105,8 @@
   color: #9E9E9E;
   padding-top: 8rpx;
   padding-bottom: 8rpx;
+  z-index: 100;
+  /* position: relative; */
 }
 
 .ddclass .liclass:hover {
@@ -112,7 +114,7 @@
   background-color: #347c81;
 }
 
-.ddclass .clear{
+.ddclass .clear {
   font-size: 28rpx;
   text-align: center;
   color: #D7D6DC;
@@ -120,11 +122,17 @@
   padding-bottom: 8rpx;
   line-height: 56rpx;
   height: 56rpx;
-  border-bottom: 2rpx solid #dbdbdb; 
+  border-bottom: 2rpx solid #dbdbdb;
   border-top: 2rpx solid #dbdbdb;
 }
 
-.ddclass .clear:hover{
+.ddclass .clear:hover {
   color: white;
   background-color: #347c81;
+}
+
+.history-span {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 20rpx;
 }

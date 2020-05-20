@@ -55,5 +55,8 @@ App({
     .catch((err)=>{
       console.log(err)
     })
+  },
+  ccc(){
+    console.log('sssssssss')
   }
 })

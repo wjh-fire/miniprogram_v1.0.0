@@ -4,8 +4,9 @@ import {
 
 export default function(options){
   if (options.token){
-    options.url = options.url + '/' + options.token
+    options.url = '/' + options.url + '/' + options.token
   }
+  console.log(baseUrl+ options.url)
   return new Promise((resolve,reject)=>{
     wx.request({
       url: baseUrl + options.url,

@@ -24,6 +24,21 @@
 	  <view class="liclass" bindtap="tapSercherStorage">{{item}}</view>
 	</block>
 	<block wx:if="{{sercherRecord.length!==0}}">
-		<view class="history-span" style="text-align:center;" bindtap="clearSearchStorage">清除历史记录</view>
+		<view class="history-span" bindtap="clearSearchStorage">清除历史记录</view>
 	</block>
 </view>
+<view>aaaaaaaaaaaaaaa</view>
+<view>bbbbbbbbbbbbbbb</view>
+<view>ccccccccccccccc</view>
+<view>ddddddddddddddd</view>
+<view>fffffffffffffff</view>
+<view>aaaaaaaaaaaaaaa</view>
+<view>bbbbbbbbbbbbbbb</view>
+<view>ccccccccccccccc</view>
+<view>ddddddddddddddd</view>
+<view>fffffffffffffff</view>
+<view>aaaaaaaaaaaaaaa</view>
+<view>bbbbbbbbbbbbbbb</view>
+<view>ccccccccccccccc</view>
+<view>ddddddddddddddd</view>
+<view>fffffffffffffff</view>

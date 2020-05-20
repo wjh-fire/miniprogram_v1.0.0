@@ -1,2 +1,4 @@
 <!--pages/tasks/tasks.wxml-->
 <w-searchbar/>
+
+<button bindtap="aaaaa">aaa</button>
